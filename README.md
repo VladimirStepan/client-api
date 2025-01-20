@@ -37,9 +37,15 @@
 
 ---
 
-### Запуск локально
+### Запуск локально (без докера)
 
 1. Клонируйте репозиторий
 2. mvn clean install
 3. mvn spring-boot:run
+4. Откройте документацию Swagger: Перейдите по адресу http://localhost:8080/swagger-ui.html.
+
+### Запуск локально (с докером)
+
+1. Клонируйте репозиторий
+2. запуск docker-compose - docker compose up -d (в корне проекта)
 4. Откройте документацию Swagger: Перейдите по адресу http://localhost:8080/swagger-ui.html.
